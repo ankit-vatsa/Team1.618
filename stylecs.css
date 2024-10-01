@@ -1,0 +1,57 @@
+body {
+    margin: 10px;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.08999999999999997);
+    display: flexbox;
+  }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+  h1{
+  text-align: center;
+  font-size: 60px;
+  background-image: url();
+  }
+  p{
+    background-color: transparent;
+    margin-top: 8px;
+    text-decoration: darkblue;
+  }
+  a {
+  color: rgba(0,149,146,255);
+  }
+  section {
+      width: 50%;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+
+.background{
+  background-color: lightblue;
+}
+
+#middle {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 400px;
+  margin-top: 65px;
+  }
+
+#middlecontent {
+padding: 10px;
+}
+
+#goomap {
+float:right;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background-color: azure;
+}
